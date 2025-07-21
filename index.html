@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NarutoWiki</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: aside;
+            border-bottom: 2px solid #eee;
+        }
+
+        header img {
+            width: 150px;
+        }
+
+        section.content {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        aside.sidebar, aside.anchors {
+            width: 20%;
+            background-color: #f5f5f5;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        main {
+            width: 60%;
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 30px;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+
+            
+        }
+    
+
+        nav ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 8px;
+        }
+
+                .personagem {
+            border: 2px solid #ccc;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            background-color: #b2b8d6;
+            max-width: 600px;
+        }
+
+    { .arcos }
+
+
+        nav ul li a {
+            text-decoration: none;
+            color: #3366cc;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-family: Arial, sans-serif;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px 16px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #e6f7ff;
+  }
+
+  caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="assets/images/logo.png" alt="Logo do anime Naruto, estilizado em laranja com detalhes em rosa" />
+    </header>
+
+    <section class="content">
+
+        <aside class="sidebar">
+            <h2>Links</h2>
+            <nav aria-label="sidebar">
+
+                <ul>
+                    <li><a href="#historianarutouzumaki">A História de Naruto Uzumaki</a></li>
+                    <li><a href="#clasmaispoderosos">Os Clãs Mais Poderosos</a></li>
+                    <li><a href="#akatsuki">A Organização Akatsuki</a></li>
+                    <li><a href="#guerraninja">A Grande Guerra Ninja</a></li>
+                    <li><a href="#linhagens">Linhagens e Modos de Poder</a></li>
+                </ul>
+
+            </nav>
+        </aside>
+
+        <main>
+            <article>
+                <h1 id="introdução">Introdução</h1>
+                <p>Naruto é uma série de mangá escrita e ilustrada por Masashi Kishimoto, que conta a história de Naruto Uzumaki, um jovem ninja que constantemente procura por reconhecimento e sonha em se tornar Hokage, o ninja líder de sua vila. A série foi publicada na revista Weekly Shōnen Jump de 1999 a 2014, sendo compilada em 72 volumes tankōbon.</p>
+
+                <img src="assets/images/naruto-introdução.jpg" alt="Uma imagem do personagem Naruto Uzumaki golpeando seu oponente Sasuke Uchiha" style="width:560px;" />
+
+                <p>A história é dividida em duas partes principais: a primeira parte se passa nos anos da pré-adolescência de Naruto, enquanto a segunda parte (conhecida como Naruto Shippuden) se passa em sua adolescência, após um intervalo de dois anos e meio de treinamento intenso.</p>
+
+                <p>O enredo principal se foca em Naruto e seu desenvolvimento como ninja, junto com seus amigos e companheiros de equipe. A série explora temas profundos como amizade, perseverança, vingança, perdão e o ciclo do ódio, sempre centrada nas interações entre os personagens e a influência do ambiente em suas personalidades.</p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4t__wczfpRI?si=apznqm24jO2OkmTu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" alt="Um vídeo da openning de Naruto - Rocks" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                <h2 id="personagens">Personagens</h2>
+            
+                <p>Os personagens de Naruto são variados e complexos, cada um com suas próprias histórias, habilidades e motivações. Abaixo estão alguns dos principais personagens da série:</p>   
+                        <div class="personagem">
+                            <h4>Naruto Uzumaki</h4>
+                            <img src="assets/images/naruto.png" alt="imagem do personagem Naruto Uzumaki" style="width:200px; " />                    
+                            <p>O protagonista da série, um jovem ninja que carrega em seu interior o demônio Kyūbi (Raposa de Nove Caudas). Seu objetivo é se tornar Hokage de sua aldeia e ser reconhecido por todos, já que inicialmente ninguém queria estar perto dele devido ao demônio selado dentro de si. Naruto é conhecido por sua personalidade determinada e por nunca desistir de seus objetivos.</p>
+                        </div>
+                        
+                        <div class="personagem">
+                            <h4>Sasuke Uchiha</h4>
+                            <img src="assets/images/sasuke.png" alt="imagem do personagem Sasuke Uchiha" style="width:200px; " />
+                            <p>Membro do clã Uchiha, é um garoto sério que possui grande habilidade para as artes ninjas, especialmente técnicas de fogo. Seu objetivo principal é ser forte o suficiente para derrotar seu irmão Itachi, que assassinou todos os demais membros do seu clã. Sasuke abandona a aldeia para treinar com Orochimaru em busca de poder.</p>
+                        </div>
+                        
+                        <div class="personagem">
+                            <h4>Sakura Haruno</h4>
+                            <img src="assets/images/sakura.png" alt="imagem do personagem Sakura Haruno" style="width:200px; " />
+                            <p>A única garota do Time 7, inicialmente apaixonada por Sasuke e que desprezava Naruto. Ao longo da história, Sakura desenvolve uma amizade genuína com Naruto e se torna aprendiz de Tsunade, aprendendo técnicas medicinais ninjas e se tornando uma kunoichi (ninja feminina) extremamente poderosa.</p>
+                        </div>
+                        
+                        <div class="personagem">
+                            <h4>Kakashi Hatake</h4>
+                            <img src="assets/images/kakashi.png" alt="imagem do personagem Kakashi Hatake" style="width:200px; " />
+                            <p>O primeiro sensei da equipe de Naruto, Sasuke e Sakura. É um ninja experiente, severo à primeira vista e amante de novelas para adultos. Possui o Sharingan em seu olho esquerdo, obtido de um amigo do clã Uchiha (Obito), o que lhe rendeu o apelido de "O Ninja que Copia" devido à sua capacidade de copiar técnicas de outros ninjas.</p>
+                        </div>
+                
+                            <p>A série conta com uma vasta gama de personagens secundários organizados em times de três ninjas novatos (Genins) com seus respectivos senseis. Destacam-se os times formados por <strong>Ino, Choji e Shikamaru</strong> (com o sensei Asuma), <strong>Hinata, Kiba e Shino</strong> (com a sensei Kurenai), e <strong>Rock Lee, Tenten e Neji</strong> (com o sensei Might Guy).</p>
+
+                            <p>Os "Três Ninjas Lendários" (Sannins) - <strong>Tsunade, Jiraiya e Orochimaru</strong> - também desempenham papéis cruciais na história, assim como os membros da organização criminosa <em>Akatsuki</em>, formada por ninjas renegados de diversas procedências.</p>
+
+
+                <h2 id="aldeias">Aldeias</h2>
+                <section class="aldeias">
+
+                    <table>
+                        <h1>Principais aldeias do universo Naruto</h1>
+                        <thead>
+                            <tr>
+                                <th scope="col">Símbolo</th>
+                                <th scope="col">Aldeia</th>
+                                <th scope="col">País</th>
+                                <th scope="col">Líder</th>
+                                <th scope="col">Especialidade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="assets/images/konoha.jpg" alt="Símbolo da Aldeia da Folha (Konoha)" width="40"></td>
+                                <td>Konohagakure (Folha)</td>
+                                <td>País do Fogo</td>
+                                <td>Hokage</td>
+                                <td>Ninjutsu</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/images/suna.png" alt="Símbolo da Aldeia da Areia (Suna)" width="40"  ></td>
+                                <td>Sunagakure (Areia)</td>
+                                <td>País do Vento</td>
+                                <td>Kazekage</td>
+                                <td>Manipulação de areia</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/images/kiri.png" alt="Símbolo da Aldeia da Névoa (Kiri)" width="40"></td>
+                                <td>Kirigakure (Névoa)</td>
+                                <td>País da Água</td>
+                                <td>Mizukage</td>
+                                <td>Jutsus de água</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/images/kumo.png" alt="Símbolo da Aldeia da Nuvem (Kumo)" width="40"></td>
+                                <td>Kumogakure (Nuvem)</td>
+                                <td>País do Trovão</td>
+                                <td>Raikage</td>
+                                <td>Velocidade e raiton</td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/images/iwa.png" alt="Símbolo da Aldeia da Pedra (Iwa)" width="40"></td>
+                                <td>Iwagakure (Pedra)</td>
+                                <td>País da Terra</td>
+                                <td>Tsuchikage</td>
+                                <td>Jutsus de terra</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+
+                <h2 id="tecnicas">Técnicas</h2>
+                <h3>Sistema de Chakra</h3>
+                <img src="assets/images/chakra.jpeg" alt="Imagem do Naruto Uzumaki utilizando Chakra" width="583" />
+                <p>O chakra é a energia vital fundamental no mundo de Naruto, formada pela combinação de energia física e espiritual. Os ninjas utilizam chakra para executar técnicas especiais chamadas jutsus. Kishimoto criou um sistema baseado nos cinco elementos básicos da natureza, representando a tradição do zodíaco chinês que tem grande presença no Japão.</p>
+                <h3>Tipos de Jutsus</h3>
+                <p><b>Ninjutsu:</b> Técnicas que utilizam chakra para manifestar efeitos sobrenaturais, como manipulação dos elementos (fogo, água, terra, ar, raio) e transformações.</p>
+                <p><b>Genjutsu:</b> Técnicas de ilusão que afetam o sistema nervoso do oponente, criando falsas realidades e manipulando os sentidos.</p> 
+                <p><b>Taijutsu:</b> Técnicas de combate corpo a corpo que enfatizam força física, velocidade e técnicas marciais, sendo o estilo preferido de personagens como Rock Lee e Might Guy.</p>
+
+                <h2 id="curiosidades">Curiosidades</h2>
+                <h3>Sobre a Criação</h3>
+                <p>Masashi Kishimoto primeiro criou um one-shot de Naruto em agosto de 1997 na revista Akamaru Jump. O autor revelou que estava originalmente trabalhando no mangá Karakuri para o Hop Step Award quando, insatisfeito com as mudanças da história, decidiu trabalhar em algo diferente, o que o levou a criar Naruto.</p>
+                <h3>Inspirações e Referências</h3>
+                <p>Quando estava criando Naruto, Kishimoto olhou para outros mangás do estilo shonen para influenciar seu trabalho, mas tentou tornar seus personagens únicos ao máximo. O design da Vila da Folha foi baseado na casa do próprio Kishimoto na Prefeitura de Okayama, no Japão.</p>
+                <h3>Sucesso Mundial</h3>
+                <p>A partir de 2017, Naruto se tornou a terceira série de mangá mais vendida da história, vendendo mais de 220 milhões de cópias em todo o mundo e sendo publicada em 35 países fora do Japão. A palavra "Naruto" chegou a ser um dos 10 termos mais pesquisados no Yahoo durante 2007 e 2008.</p>
+                <h3>Adaptações e Mídia</h3>
+                <p>Além do mangá e anime, a franquia Naruto expandiu para 11 filmes, diversos jogos eletrônicos, cartas colecionáveis, light novels e outros produtos. Um filme live-action está em desenvolvimento pela Lionsgate com Michael Gracey dirigindo, com o próprio Kishimoto envolvido na produção.</p>
+        
+
+                <h2 id="arcos">Arcos</h2>
+                <h3>Parte I - Formação Ninja</h3>
+                <table>
+                    <tr>
+                        <td>Arco da Academia e Formação dos Times:</td>
+                        <td>Introdução dos personagens principais e formação do Time 7 com Naruto, Sasuke, Sakura e Kakashi.</td>
+                    </tr>
+                    <tr>
+                        <td>Arco do País das Ondas:</td>
+                        <td>Primeira missão importante do Time 7, onde enfrentam Zabuza e Haku, estabelecendo temas centrais sobre sacrifício e bonds.</td>
+                    </tr>
+                    <tr>
+                        <td>Exames Chūnin:</td>
+                        <td>Torneio que testa as habilidades dos jovens ninjas, introduzindo Orochimaru como antagonista principal e revelando o poder do Sharingan de Sasuke.</td>
+                    </tr>
+                    <tr>
+                        <td>Invasão de Konoha:</td>
+                        <td>O ataque de Orochimaru e Gaara, culminando na luta entre Naruto e Gaara, que explora a solidão e o desejo de aceitação.</td>
+                    </tr>
+                    <tr>
+                        <td>Missão de Resgate de Sasuke: </td>
+                        <td>Sasuke abandona a aldeia para treinar com Orochimaru, levando a uma perseguição épica e ao confronto final entre Naruto e Sasuke no Vale do Fim.</td>
+
+                    </tr>
+                </table>
+
+                <h3>Parte II - Naruto Shippuden</h3>
+                <table>
+
+                    <tr>
+                        <td>Resgate do Kazekage:</td>
+                        <td>Naruto retorna após dois anos de treinamento para enfrentar a Akatsuki, que capturou Gaara. Introdução das novas habilidades de Naruto.</td>
+                    </tr>
+                    <tr>
+                        <td>Reunião com Sasuke:</td>
+                        <td>Primeiro encontro entre Naruto e Sasuke após o intervalo de tempo, mostrando como ambos evoluíram em poder.</td>
+                    </tr>
+                    <tr>
+                        <td>Invasão de Pain:</td>
+                        <td>O líder da Akatsuki ataca Konoha em busca de Naruto, resultando na destruição da aldeia e na maior demonstração do crescimento de Naruto como ninja e pessoa.</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta Grande Guerra Ninja:</td>
+                        <td>Conflito final contra Madara Uchiha, Obito e eventualmente Kaguya Ōtsutsuki, unindo todas as cinco grandes nações shinobis.</td>
+                    </tr>
+                    <tr>
+                        <td>Confronto Final:</td>
+                        <td>Batalha definitiva entre Naruto e Sasuke, resolvendo finalmente seus conflitos pessoais e ideológicos, levando à redenção de Sasuke e ao cumprimento do sonho de Naruto.</td>
+
+                    </tr>
+                    </table>
+
+            <blockquote>"Eu nunca vou voltar atrás na minha palavra... esse é o meu caminho ninja!"</blockquote>
+            <cite>— Naruto Uzumaki</cite>                
+
+            </article>
+        </main>
+
+        <aside class="anchors">
+            <h2>Neste Artigo</h2>
+            <nav aria-label="Mapa do conteúdo">
+                <ul>
+                    <li><a href="#introducao">Introdução</a></li>
+                    <li><a href="#personagens">Personagens</a></li>
+                    <li><a href="#aldeias">Aldeias</a></li>
+                    <li><a href="#tecnicas">Técnicas</a></li>
+                    <li><a href="#curiosidades">Curiosidades</a></li>
+                    <li><a href="#arcos">Arcos</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+    </section>
+
+    <footer>
+        &copy; 2025 - AnimeWiki 💛
+    </footer>
+
+</body>
+</html>
+
